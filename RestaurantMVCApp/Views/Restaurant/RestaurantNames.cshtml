@@ -1,0 +1,22 @@
+﻿@model IEnumerable<RestaurantMVCApp.Models.Restaurant>
+@{
+    ViewBag.Title = "RestaurantNames";
+}
+
+<h2>RestaurantNames</h2>
+
+@if (!Model.Any())
+{
+    <p>Not Available</p>
+}
+else
+{
+    <ul>
+        @foreach (var res in Model)
+        {
+            @*@res.Id*@
+            <li><a href="/restaurant/details/@res.Id">@res.RestaurantName</a></li>
+            @*@res.Cusine*@
+        }
+    </ul>
+}

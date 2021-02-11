@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantMVCApp", "RestaurantMVCApp\RestaurantMVCApp.csproj", "{D064A5A2-7685-422F-A4F8-0DFB3DEB8981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstApproachRestaurant", "..\EFDbFirstApproachRestaurant\EFDbFirstApproachRestaurant.csproj", "{1B0775BA-00CF-4504-88FF-BEAD24AEB945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D064A5A2-7685-422F-A4F8-0DFB3DEB8981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D064A5A2-7685-422F-A4F8-0DFB3DEB8981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D064A5A2-7685-422F-A4F8-0DFB3DEB8981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D064A5A2-7685-422F-A4F8-0DFB3DEB8981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0775BA-00CF-4504-88FF-BEAD24AEB945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0775BA-00CF-4504-88FF-BEAD24AEB945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0775BA-00CF-4504-88FF-BEAD24AEB945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0775BA-00CF-4504-88FF-BEAD24AEB945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92075CAB-BABC-486E-A8A5-D723AAFE1D53}
+	EndGlobalSection
+EndGlobal

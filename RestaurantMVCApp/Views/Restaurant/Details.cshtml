@@ -1,0 +1,27 @@
+﻿@model RestaurantMVCApp.Models.Restaurant
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div class="container">
+    <div>
+        <h3>Restaurant Id:@Model.Id</h3>
+
+    </div>
+    <div>
+        <h3>Restaurant Name:@Model.RestaurantName</h3>
+    </div>
+    <div>
+        <h3>Item Name:@Model.Name</h3>
+
+    </div>
+    
+    <div>
+        <h3>Restaurant Cuisine:@Model.Cusine</h3>
+    </div>
+    <div>
+        <a class="btn btn-default" href="/restaurant/index">Back</a>
+    </div>
+</div>
